@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Gotham' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <style>
+        .wow{
+            background-color:black;
+        }
+        .col-sm-1{
+            text-align:center;
+            padding-top:15px;
+            font-family:Courier;
+        }
+        .col-sm-2{
+            text-align:center;
+            padding-top:15px;
+            font-family:Courier;
+        }
+
+        .col-sm-1 a{
+            text-decoration:underline;
+            color:white;
+            text-align:center;
+        }
+        .col-sm-2 a{
+            text-decoration:underline;
+            color:white;
+            text-align:center;
+        }
+        .question ul{
+            list-style-type: none;
+        }
+        .table, td {
+            border: 3px solid black;
+            padding: 10px 10px;
+            border-spacing:10px;
+            border-collapse: collapse;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .quiz{
+            background-color:rgb(226,226,226);
+            border-top-right-radius:20px;
+            border-top-right-radius:20px;
+        }
+        .navig{
+            background-color:rgb(226,226,226);
+            display:inline;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            text-align:center;
+        }
+        .navig a{
+            color:black;
+        }
+        @media (max-width:426px){
+            .gone{
+                display:none;
+            }
+        }
+    </style>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script><script async src='/cdn-cgi/bm/cv/669835187/api.js'></script><script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+<body>
+    <div class="container-fluid sticky-top wow">
+        <div class="row">
+            <div class="col-sm-3" style="background-color:#38b6ff">
+                <h2 style="color:white;text-align:center;padding-top:10px;font-family:'Montserrat';font-weight:700;">Knowledge Hub</h2>
+            </div>
+            
+            <div class="col-sm-2"></div>
+            
+            <div class="col-sm-2">
+                <p><a href="dashboard.html" style="background-color:#38b6ff; padding:10px 10px;border-radius:10px;color:black;">DASHBOARD</a></p>
+            </div>
+
+            <div class="col-sm-2 gone">
+                <p><a href="#">PROFILE</a></p>
+            </div>
+            
+            <div class="col-sm-2 gone">
+                <p><a href="#">MESSAGES</a></p>
+            </div>
+            
+            <div class="col-sm-1 gone">
+                <p><a href="index.html">LOG OUT</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h1 style=" font-family: montserrat; font-weight: 700;">Computer Science 3</h1>
+    </div>
+    <div style="width: 100%; height: 20px; border-bottom: 5px solid black; text-align: left; padding-left: 5vw;display:inline-block">
+        <span style="font-size: 20px; background-color: #ffffff; padding: 0 10px; font-family: montserrat; font-weight: 700;">
+            COURSES - CS3 - QUIZ 1 <!--Padding is optional-->
+        </span>
+    </div>
+    <div class="container how" style="margin-top:10px;">
+        <div class="row">
+            <div class="col-sm-3 navig">
+                <table>
+                    <tr>
+                        <td><a href="#1">1</a></td>
+                        <td><a href="#2">2</a></td>
+                        <td><a href="#3">3</a></td>
+                        <td><a href="#4">4</a></td>
+                        <td><a href="#5">5</a></td>
+                    </tr> 
+                </table>
+            </div>
+            <div class="col-sm-9 quiz">
+                <h1 id="1">Quiz 1 (1st Quarter) - Computer Science 3</h1>
+                <p><b>Instructions:</b> Choose the correct letter. Click on the circle for your answer.</p>
+            
+
+                <div class="question">
+                    <h5>1. What does the "a" tag mean?</h5>
+                    <ul>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio1">
+                        <span class="checkmark"></span>a. application
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle"> 
+                        <input type="radio" name="radio1">
+                        <span class="checkmark"></span>b. anchor 
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle"  id="2">
+                        <input type="radio" name="radio1">
+                        <span class="checkmark"></span>c. amongus
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio1">
+                        <span class="checkmark"></span>d. assertion
+                        </label>
+                    </li>
+                    </ul>
+                </div>
+                <div class="question">
+                    <h5>2. What does URL stand for?</h5>
+                    <ul>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio2">
+                        <span class="checkmark"></span>a. uniform resource locator
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio2">
+                        <span class="checkmark"></span>b. unicorn rolling lamborghini
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle"  id="3">
+                        <input type="radio" name="radio2">
+                        <span class="checkmark"></span>c. uniform resource location
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio2">
+                        <span class="checkmark"></span>d. uniform radical label
+                        </label>
+                    </li>
+                    </ul>
+                </div>
+                <div class="question">
+                    <h5>3. Who wrote the first HTML?</h5>
+                    <ul>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio3">
+                        <span class="checkmark"></span>a. Ada Lovelace
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio3">
+                        <span class="checkmark"></span>b. Steve Jobs
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle"  id="4">
+                        <input type="radio" name="radio3">
+                        <span class="checkmark"></span>c. Bill Gates
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio3">
+                        <span class="checkmark"></span>d. Tim Berner-Lee
+                        </label>
+                    </li>
+                    </ul>
+                </div>
+                <div class="question">
+                    <h5>4. What does HTML stand for?</h5>
+                    <ul>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio4">
+                        <span class="checkmark"></span>a. how to mobile legends
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio4">
+                        <span class="checkmark"></span>b. how to make lumpia
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle"  id="5">
+                        <input type="radio" name="radio4">
+                        <span class="checkmark"></span>c. hypertext markup language
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio4">
+                        <span class="checkmark"></span>d. hypertext makeup language
+                        </label>
+                    </li>
+                    </ul>
+                </div>
+                <div class="question">
+                    <h5>5. What is GitHub?</h5>
+                    <ul>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio5">
+                        <span class="checkmark"></span>a. gitgud.
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio5">
+                        <span class="checkmark"></span>b. Provider of Internet hosting for software development and version control.
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio5">
+                        <span class="checkmark"></span>c. programming language.
+                        </label>
+                    </li>
+                    <li>
+                        <label class="circle">
+                        <input type="radio" name="radio5">
+                        <span class="checkmark"></span>d. GitHub does not exist.
+                        </label>
+                    </li>
+                    </ul>
+                </div>
+                
+                <div class="container-fluid" style="text-align: center;">
+                    <a href="CompSci.html" class="btn btn-info"><h5>Finish Attempt</h5></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
